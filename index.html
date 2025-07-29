@@ -1,8 +1,164 @@
-index.html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Showcase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      background-color: #121212;
+      color: #fff;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px 20px;
+    }
+
+     .logo-title {
+      font-size: 48px;
+      color: #333;
+      margin-top: 40px;
+      margin-bottom: 30px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .logo-title:hover {
+      color: #007bff;
+      transform: scale(1.02);
+    }
 
 
+    .subtitle {
+      font-size: 20px;
+      color: #bbb;
+      margin-bottom: 30px;
+    }
 
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 30px 20px;
+      max-width: 500px;
+      margin: auto;
+    }
 
+    .card {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      transition: transform 0.3s, background-color 0.3s ease;
+      width: 100%;
+    }
 
+    .card:hover {
+      transform: scale(1.03);
+      background-color: #007bff;
+    }
 
-<h1>Hello world</h1>
+    .card a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+      display: block;
+    }
+
+    footer {
+      background-color: #181818;
+      padding: 30px 10px;
+      margin-top: 50px;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin: 8px;
+      color: white;
+      text-decoration: none;
+      background-color: #25d366;
+      padding: 10px 25px;
+      border-radius: 30px;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact a:hover {
+      background-color: #1ebd59;
+    }
+
+    .footer-text {
+      color: #888;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    
+  footer a:hover {
+    color: #007bff;
+    transform: scale(1.2);
+  }
+  .social-icons a i {
+  color: #555;
+  font-size: 28px;
+  margin: 0 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover i {
+  color: #00b894;
+  transform: scale(1.2);
+}
+
+/* لو عايزة لون خاص لكل أيقونة */
+.social-icons a:hover .fa-phone-alt {
+  color: #0984e3;
+}
+.social-icons a:hover .fa-whatsapp {
+  color: #25D366;
+}
+.social-icons a:hover .fa-twitter {
+  color: #1DA1F2;
+}
+.social-icons a:hover .fa-instagram {
+  color: #C13584;
+}
+</style>
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="logo-title">Project Showcase</h1>
+    <p class="subtitle">A collection of creative and technical work crafted with passion and precision</p>
+  </header>
+
+  <div class="container">
+    <div class="card"><a href="logos.html">LOGO WORLD</a></div>
+    <div class="card"><a href="websites.html">WEBSITES DESIGN</a></div>
+    <div class="card"><a href="motion.html">MOTION GRAPHICS</a></div>
+    <div class="card"><a href="accounts.html">ACCOUNT MANAGEMENT</a></div>
+    <div class="card"><a href="whatsapp.html">WHATSAPP SENDER</a></div>
+    <div class="card"><a href="CV.html">CV</a></div>
+
+  </div>
+
+ <footer style="background-color: #121212; padding: 20px 0; text-align: center;">
+  <h3 style="margin-bottom: 10px; font-family: 'Cairo', sans-serif; color: #a8a3a3;">Contact me</h3>
+<div class="social-icons">
+  <a href="tel:01140949932" target="_blank"><i class="fas fa-phone-alt"></i></a>
+  <a href="https://wa.me/201140949932" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://twitter.com/Roby25745938" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.instagram.com/rehab_sayed144" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+  
+  <p style="font-size: 14px; color: #777;">&copy; 2025 Rehab. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

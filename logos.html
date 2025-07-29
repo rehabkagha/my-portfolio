@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Logos Gallery</title>
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+      justify-items: center;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border: 2px solid white;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s, filter 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      filter: brightness(0.8);
+    }
+
+     .back-button {
+  display: block; /* بدل inline-block */
+  margin: 20px auto 40px;
+  padding: 10px 20px;
+  background-color: #30302f;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s;
+  width: fit-content;
+}
+
+    .back-button:hover {
+      background-color: #007bff;
+    }
+  </style>
+</head>
+<body>
+ <h1 class="logo-title">Logo World</h1>
+
+<style>
+  .logo-title {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    color: #333;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+
+  .logo-title:hover {
+    color: #007bff;
+    transform: scale(1.02);
+  }
+</style>
+
+  <div class="gallery">
+    <img src="logos/logo1.png" alt="Logo 1">
+    <img src="logos/logo2.png" alt="Logo 2">
+    <img src="logos/logo3.png" alt="Logo 3">
+    <img src="logos/logo4.png" alt="Logo 4">
+    <img src="logos/logo5.png" alt="Logo 5">
+    <img src="logos/logo6.png" alt="Logo 6">
+    <img src="logos/logo7.png" alt="Logo 7">
+    <img src="logos/logo8.png" alt="Logo 8">
+    <img src="logos/logo9.png" alt="Logo 9">
+    <img src="logos/logo10.png" alt="Logo 10">
+    <img src="logos/logo12.png" alt="Logo 12">
+    <img src="logos/logo13.png" alt="Logo 13">
+    <img src="logos/logo14.png" alt="Logo 14">
+    <img src="logos/logo15.png" alt="Logo 15">
+    <img src="logos/logo16.png" alt="Logo 16">
+    <img src="logos/logo17.png" alt="Logo 17">
+    <img src="logos/logo18.png" alt="Logo 18">
+    <img src="logos/logo19.png" alt="Logo 19">
+    <img src="logos/logo20.png" alt="Logo 20">
+    <img src="logos/logo21.png" alt="Logo 21">
+  </div>
+
+ 
+  <a href="index.html" class="back-button">   Back to Home</a>
+
+
+</body>
+</html>
